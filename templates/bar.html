@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bar Chart Plots</title>
+</head>
+<body>
+    <div style="text-align: center;">
+    <h1>Bar Chart Plots</h1>
+</div>
+    {% for figure in figures %}
+    <div style="text-align: center;">
+        <img src="data:image/png;base64,{{ figure }}" alt="Bar Chart Plot">
+
+    </div>
+    {% endfor %}
+</body>
+</html>
