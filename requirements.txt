@@ -5,3 +5,4 @@ Werkzeug
 itsdangerous
 pandas
 pyarrow
+matplotlib

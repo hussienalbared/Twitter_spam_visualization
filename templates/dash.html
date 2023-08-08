@@ -1,14 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Spam Count</title>
+    <title>Dashboard</title>
 </head>
 <body>
     <div style="text-align: center;">
-    <h1>Spam Count</h1>
+    <h1>Dashboard</h1>
 </div>
     <div style="text-align: center;">
-    <img src="data:image/png;base64,{{ chart }}" alt="Pie Chart">
+    <img src="data:image/png;base64,{{ pie_chart }}" alt="Pie Chart">
 </div>
+</div>
+<div style="text-align: center;">
+<img src="data:image/png;base64,{{ bar_chart }}" alt="Bar Chart">
+</div>
+
+<div style="text-align: center;">
+    <img src="data:image/png;base64,{{ classeschart }}" alt="Classes Chart">
+    </div>
+
 </body>
 </html>
